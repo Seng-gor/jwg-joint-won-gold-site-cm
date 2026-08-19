@@ -1,0 +1,1095 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JWG Joint-Won Gold — Penawar Sakit Sendi #1 Malaysia</title>
+<meta name="description" content="JWG Joint-Won Gold — formulasi Spanish Saffron & herba semula jadi untuk sakit sendi, sakit pinggang, sciatica, dan arthritis. GMP & KKM diluluskan. COD tersedia.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700;9..144,900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#FBF3E7;
+    --paper-2:#F5E9D6;
+    --ink:#1E2A28;
+    --ink-soft:#4A5654;
+    --teal:#0E5E59;
+    --teal-dark:#0A4642;
+    --teal-tint:#EAF2F0;
+    --saffron:#B23A2E;
+    --saffron-dark:#8E2C22;
+    --gold:#C99A3E;
+    --gold-light:#E8CD8F;
+    --line:rgba(30,42,40,0.12);
+    --radius:18px;
+    --shadow:0 10px 30px rgba(14,94,89,0.12);
+    --maxw:1160px;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Plus Jakarta Sans', sans-serif;
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  img{max-width:100%;display:block;border-radius:14px;}
+  h1,h2,h3,h4{
+    font-family:'Fraunces', serif;
+    font-weight:700;
+    line-height:1.12;
+    margin:0 0 .5em;
+    color:var(--ink);
+  }
+  p{margin:0 0 1em;}
+  a{color:inherit;}
+  .wrap{max-width:var(--maxw); margin:0 auto; padding:0 24px;}
+  .wrap-narrow{max-width:800px; margin:0 auto; padding:0 24px;}
+  .eyebrow{
+    display:inline-flex; align-items:center; gap:8px;
+    font-size:13px; font-weight:700; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--saffron); margin-bottom:14px;
+  }
+  .eyebrow::before{content:''; width:22px; height:2px; background:var(--saffron); display:inline-block;}
+  .btn{
+    display:inline-flex; align-items:center; justify-content:center; gap:8px;
+    padding:16px 30px; border-radius:100px; font-weight:700; font-size:16px;
+    text-decoration:none; border:2px solid transparent; cursor:pointer;
+    transition:transform .15s ease, box-shadow .15s ease, background .15s ease;
+    font-family:'Plus Jakarta Sans', sans-serif;
+  }
+  .btn-primary{background:var(--saffron); color:#fff; box-shadow:0 8px 20px rgba(178,58,46,.35);}
+  .btn-primary:hover{transform:translateY(-2px); box-shadow:0 12px 26px rgba(178,58,46,.42);}
+  .btn-ghost{background:transparent; border-color:var(--ink); color:var(--ink);}
+  .btn-ghost:hover{background:var(--ink); color:var(--paper);}
+  .btn-block{width:100%;}
+  section{padding:88px 0;}
+  .section-tight{padding:56px 0;}
+  .alt{background:var(--teal-tint);}
+  .alt-warm{background:var(--paper-2);}
+
+  /* ===== NAV ===== */
+  header.site{
+    position:sticky; top:0; z-index:50;
+    background:rgba(251,243,231,0.94); backdrop-filter:blur(8px);
+    border-bottom:1px solid var(--line);
+  }
+  .nav{display:flex; align-items:center; justify-content:space-between; padding:14px 24px;}
+  .logo{display:flex; align-items:center; gap:10px; font-family:'Fraunces',serif; font-weight:800; font-size:22px; color:var(--teal-dark);}
+  .logo .dot{width:10px;height:10px;border-radius:50%;background:var(--saffron);}
+  .nav-links{display:flex; gap:26px; font-size:14.5px; font-weight:700; color:var(--ink-soft);}
+  .nav-links a{text-decoration:none; transition:color .15s ease;}
+  .nav-links a:hover{color:var(--saffron);}
+  .nav-cta{font-size:14px; padding:12px 22px;}
+  @media (max-width:980px){ .nav-links{display:none;} }
+
+  /* ===== HERO ===== */
+  .hero{padding:56px 0 36px; position:relative; overflow:hidden;}
+  .hero::before{
+    content:''; position:absolute; top:-140px; right:-160px; width:480px; height:480px;
+    background:radial-gradient(circle, var(--gold-light) 0%, transparent 70%);
+    opacity:.55; z-index:0;
+  }
+  .hero-grid{display:grid; grid-template-columns:1.1fr .9fr; gap:56px; align-items:center; position:relative; z-index:1;}
+  .hero h1{font-size:clamp(32px,4.4vw,52px); letter-spacing:-.01em;}
+  .hero h1 em{font-style:normal; color:var(--saffron);}
+  .hero-sub{font-size:18px; color:var(--ink-soft); max-width:48ch;}
+  .hero-cta-row{display:flex; gap:14px; flex-wrap:wrap; margin-top:26px;}
+  .hero-img-wrap{position:relative;}
+  .hero-img-wrap img{border-radius:22px; box-shadow:var(--shadow);}
+  .badge-float{
+    position:absolute; bottom:-18px; left:-18px; background:#fff; border-radius:14px;
+    padding:14px 18px; box-shadow:var(--shadow); display:flex; align-items:center; gap:10px;
+    font-size:13px; font-weight:700; color:var(--teal-dark);
+  }
+  .badge-float span.n{font-family:'Fraunces',serif; font-size:22px; color:var(--saffron);}
+
+  .timeline{
+    margin-top:36px; display:grid; grid-template-columns:repeat(3,1fr); gap:0;
+    background:#fff; border-radius:var(--radius); box-shadow:var(--shadow); overflow:hidden;
+    border:1px solid var(--line);
+  }
+  .timeline .step{padding:20px 18px; position:relative; border-right:1px dashed var(--line);}
+  .timeline .step:last-child{border-right:none;}
+  .timeline .step .m{font-family:'Fraunces',serif; font-weight:800; font-size:14.5px; color:var(--teal); text-transform:uppercase; letter-spacing:.05em;}
+  .timeline .step .t{font-size:14.5px; font-weight:700; margin-top:4px;}
+  .timeline .step::after{content:''; position:absolute; left:0; bottom:0; height:4px; width:0%; background:var(--saffron);}
+  .timeline .step:nth-child(1)::after{width:33%;}
+  .timeline .step:nth-child(2)::after{width:66%;}
+  .timeline .step:nth-child(3)::after{width:100%;}
+
+  .trust-row{display:flex; gap:24px; flex-wrap:wrap; margin-top:22px; align-items:center;}
+  .trust-row .item{display:flex; align-items:center; gap:8px; font-size:13px; font-weight:700; color:var(--teal-dark);}
+  .trust-row .item .ico{width:8px;height:8px;border-radius:50%;background:var(--gold); flex-shrink:0;}
+
+  /* ===== MINI TRUST STRIP ===== */
+  .strip{background:var(--teal-dark); padding:18px 0;}
+  .strip .wrap{display:flex; justify-content:space-between; flex-wrap:wrap; gap:16px;}
+  .strip-item{display:flex; align-items:center; gap:10px; color:#fff; font-size:13.5px; font-weight:700;}
+  .strip-item .num{font-family:'Fraunces',serif; font-size:20px; color:var(--gold-light);}
+  @media(max-width:700px){ .strip .wrap{justify-content:center; text-align:center;} }
+
+  /* ===== SECTION HEADS ===== */
+  .section-head{max-width:680px; margin:0 auto 48px; text-align:center;}
+  .section-head p{color:var(--ink-soft); font-size:17px;}
+
+  /* ===== SYMPTOM CARDS ===== */
+  .cards3{display:grid; grid-template-columns:repeat(3,1fr); gap:24px;}
+  .symptom-card{background:#fff; border-radius:var(--radius); padding:30px 26px; box-shadow:var(--shadow); border-top:5px solid var(--teal);}
+  .symptom-card h3{font-size:21px; color:var(--teal-dark);}
+  .symptom-card ul{margin:0; padding-left:0; list-style:none;}
+  .symptom-card li{display:flex; gap:10px; margin-bottom:12px; font-size:14.5px; color:var(--ink-soft);}
+  .symptom-card li::before{content:'✓'; color:var(--saffron); font-weight:800; flex-shrink:0;}
+  .proof-img{margin-top:40px;}
+  .proof-img img{box-shadow:var(--shadow); margin:0 auto;}
+  .proof-caption{text-align:center; font-size:13px; color:var(--ink-soft); margin-top:10px; font-style:italic;}
+
+  /* ===== STAGE CHECKER ===== */
+  .stages{display:grid; grid-template-columns:repeat(4,1fr); gap:20px;}
+  .stage-card{border-radius:16px; padding:24px 20px; background:#fff; border:1px solid var(--line); position:relative;}
+  .stage-card .num{font-family:'Fraunces',serif; font-weight:800; font-size:28px; color:var(--gold); margin-bottom:8px; display:block;}
+  .stage-card h4{font-size:16px; margin-bottom:10px;}
+  .stage-card ul{margin:0; padding-left:18px; font-size:13.5px; color:var(--ink-soft);}
+  .stage-card li{margin-bottom:6px;}
+  .stage-card.severe{background:var(--saffron); color:#fff;}
+  .stage-card.severe .num{color:var(--gold-light);}
+  .stage-card.severe h4{color:#fff;}
+  .stage-card.severe ul{color:rgba(255,255,255,.9);}
+
+  /* ===== PRODUCT INTRO BANNER ===== */
+  .intro-banner{text-align:center;}
+  .intro-banner img{margin:0 auto; box-shadow:var(--shadow);}
+  .intro-benefits{display:grid; grid-template-columns:repeat(4,1fr); gap:20px; margin-top:40px;}
+  .intro-benefit{text-align:center; padding:20px;}
+  .intro-benefit .ico2{
+    width:56px; height:56px; border-radius:50%; background:var(--teal-tint);
+    display:flex; align-items:center; justify-content:center; margin:0 auto 14px; font-size:24px;
+  }
+  .intro-benefit h4{font-size:15px; color:var(--teal-dark); margin-bottom:6px;}
+  .intro-benefit p{font-size:13.5px; color:var(--ink-soft); margin:0;}
+
+  /* ===== INGREDIENTS ===== */
+  .ingred-grid{display:grid; grid-template-columns:1fr 1fr; gap:48px; align-items:center;}
+  .ingred-list{display:grid; grid-template-columns:1fr 1fr; gap:16px;}
+  .ingred-pill{background:#fff; border-radius:14px; padding:16px 18px; border:1px solid var(--line); font-weight:700; font-size:14.5px; color:var(--teal-dark); display:flex; align-items:center; gap:10px;}
+  .ingred-pill .leaf{color:var(--saffron); font-size:18px;}
+  .myclimate-block{margin-top:64px; display:grid; grid-template-columns:.9fr 1.1fr; gap:48px; align-items:center;}
+  .myclimate-block img{box-shadow:var(--shadow);}
+
+  /* ===== CERTS ===== */
+  .cert-strip{display:grid; grid-template-columns:repeat(3,1fr); gap:24px;}
+  .cert-strip img{box-shadow:var(--shadow);}
+  .cert-caption{text-align:center; font-size:14px; font-weight:700; color:var(--teal-dark); margin-top:12px;}
+
+  /* ===== SCALE / VOLUME TRUST ===== */
+  .scale-grid{display:grid; grid-template-columns:1.1fr .9fr; gap:48px; align-items:center;}
+  .scale-grid img{box-shadow:var(--shadow);}
+  .scale-stats{display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-top:24px;}
+  .scale-stat{background:#fff; border-radius:14px; padding:18px; text-align:center; box-shadow:var(--shadow);}
+  .scale-stat .n{font-family:'Fraunces',serif; font-size:30px; font-weight:800; color:var(--saffron);}
+  .scale-stat .l{font-size:12.5px; color:var(--ink-soft); font-weight:700;}
+  .cod-strip{display:grid; grid-template-columns:.8fr 1.2fr; gap:40px; align-items:center; margin-top:56px; background:#fff; border-radius:var(--radius); padding:32px; box-shadow:var(--shadow);}
+  .cod-strip img{box-shadow:none; border-radius:14px;}
+
+  /* ===== TESTIMONIALS ===== */
+  .testi-photo-grid{display:grid; grid-template-columns:repeat(4,1fr); gap:16px;}
+  .testi-photo-grid img{box-shadow:var(--shadow); border-radius:16px;}
+  .testi-photo-grid .wide{grid-column:span 2;}
+  .testi-quotes{display:grid; grid-template-columns:repeat(3,1fr); gap:20px; margin-top:32px;}
+  .quote-card{background:#fff; border-radius:14px; padding:20px; border-left:4px solid var(--gold); font-size:14px; color:var(--ink-soft);}
+  .quote-card b{display:block; color:var(--teal-dark); font-size:14.5px; margin-bottom:6px;}
+
+  /* ===== HOW TO USE ===== */
+  .howto-card{border-top:5px solid var(--gold); text-align:center;}
+  .howto-icon{width:64px; height:64px; border-radius:50%; background:var(--teal-tint); display:flex; align-items:center; justify-content:center; margin:0 auto 16px;}
+  .howto-card h3{font-size:17px; color:var(--teal-dark);}
+
+  /* ===== FAQ ===== */
+  .faq-list{max-width:760px; margin:0 auto; display:flex; flex-direction:column; gap:12px;}
+  .faq-item{background:#fff; border:1px solid var(--line); border-radius:14px; overflow:hidden;}
+  .faq-q{width:100%; text-align:left; background:none; border:none; cursor:pointer; padding:20px 22px; font-family:'Plus Jakarta Sans',sans-serif; font-weight:700; font-size:15.5px; color:var(--ink); display:flex; align-items:center; justify-content:space-between; gap:16px;}
+  .faq-icon{flex-shrink:0; width:26px; height:26px; border-radius:50%; background:var(--teal-tint); color:var(--teal-dark); display:flex; align-items:center; justify-content:center; font-size:16px; font-weight:800; transition:transform .2s ease, background .2s ease;}
+  .faq-item.open .faq-icon{background:var(--saffron); color:#fff; transform:rotate(45deg);}
+  .faq-a{max-height:0; overflow:hidden; transition:max-height .25s ease;}
+  .faq-a p{padding:0 22px 20px; margin:0; color:var(--ink-soft); font-size:14.5px;}
+
+  /* ===== PRICING ===== */
+  .pricing-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:24px;}
+  .price-card{background:#fff; border-radius:var(--radius); overflow:hidden; box-shadow:var(--shadow); border:2px solid transparent; cursor:pointer; transition:border-color .15s ease, transform .15s ease; display:flex; flex-direction:column;}
+  .price-card:hover{transform:translateY(-4px);}
+  .price-card.selected{border-color:var(--saffron);}
+  .price-card .pop{background:var(--saffron); color:#fff; text-align:center; font-size:12px; font-weight:800; letter-spacing:.06em; text-transform:uppercase; padding:8px;}
+  .price-card img{border-radius:0;}
+  .price-card .pc-body{padding:22px; text-align:center; flex:1; display:flex; flex-direction:column;}
+  .price-card h3{font-size:18px; margin-bottom:8px;}
+  .price-card .qty-badge{display:inline-block; margin:0 auto 12px; background:var(--teal-tint); color:var(--teal-dark); font-size:12.5px; font-weight:800; letter-spacing:.02em; padding:6px 14px; border-radius:100px;}
+  .price-card .price-row{display:flex; align-items:baseline; justify-content:center; gap:10px;}
+  .price-card .was{font-size:16px; font-weight:700; color:var(--ink-soft); text-decoration:line-through; opacity:.65;}
+  .price-card .price{font-family:'Fraunces',serif; font-weight:800; font-size:34px; color:var(--saffron); margin:2px 0 4px;}
+  .price-card .price sup{font-size:16px; margin-right:2px;}
+  .price-card .save{font-size:13px; color:var(--teal); font-weight:700; margin-bottom:14px;}
+  .price-card .select-btn{margin-top:auto; border:2px solid var(--ink); background:transparent; border-radius:100px; padding:12px; font-weight:700; font-size:14px; cursor:pointer; transition:all .15s ease;}
+  .price-card.selected .select-btn{background:var(--saffron); border-color:var(--saffron); color:#fff;}
+
+  /* ===== LUCKY DRAW ===== */
+  .lucky{background:var(--gold-light);}
+  .lucky-grid{display:grid; grid-template-columns:1fr 1fr; gap:40px; align-items:center;}
+  .lucky-grid img{box-shadow:var(--shadow);}
+  .lucky ul{list-style:none; padding:0; margin:0;}
+  .lucky li{display:flex; justify-content:space-between; padding:14px 0; border-bottom:1px dashed rgba(30,42,40,.25); font-weight:700; font-size:15px;}
+  .lucky li span.prize-label{color:var(--saffron); text-transform:uppercase; font-size:12px; letter-spacing:.06em; display:block; font-weight:800; margin-bottom:2px;}
+
+  /* ===== ORDER FORM ===== */
+  .order-section{background:var(--teal-dark); color:#fff; position:relative; overflow:hidden;}
+  .order-section::before{content:''; position:absolute; bottom:-120px; left:-100px; width:400px; height:400px; background:radial-gradient(circle, rgba(201,154,62,.25) 0%, transparent 70%);}
+  .order-section .section-head p{color:rgba(255,255,255,.75);}
+  .order-section .section-head .eyebrow{color:var(--gold-light);}
+  .order-box{max-width:640px; margin:0 auto; background:#fff; border-radius:var(--radius); padding:40px; box-shadow:0 20px 50px rgba(0,0,0,.35); color:var(--ink); position:relative; z-index:1;}
+  .field{margin-bottom:20px;}
+  .field label{display:block; font-weight:700; font-size:14px; margin-bottom:8px; color:var(--teal-dark);}
+  .field input, .field textarea, .field select{width:100%; padding:14px 16px; border-radius:10px; border:1.5px solid var(--line); font-family:'Plus Jakarta Sans',sans-serif; font-size:15px; background:var(--paper); transition:border-color .15s ease;}
+  .field input:focus, .field textarea:focus, .field select:focus{outline:none; border-color:var(--saffron);}
+  .field textarea{resize:vertical; min-height:80px;}
+  .field-row{display:grid; grid-template-columns:1fr 1fr; gap:16px;}
+  .phone-group{display:flex; gap:0;}
+  .phone-prefix{
+    display:flex; align-items:center; justify-content:center; padding:0 16px;
+    background:var(--teal-tint); border:1.5px solid var(--line); border-right:none;
+    border-radius:10px 0 0 10px; font-weight:800; color:var(--teal-dark); font-size:15px; flex-shrink:0;
+  }
+  .phone-group input{border-radius:0 10px 10px 0;}
+  .pkg-radio-group{display:grid; gap:10px;}
+  .pkg-radio{display:flex; align-items:center; justify-content:space-between; gap:10px; border:1.5px solid var(--line); border-radius:10px; padding:14px 16px; cursor:pointer; font-size:14.5px; font-weight:600;}
+  .pkg-radio input{width:auto; margin-right:10px;}
+  .pkg-radio .p{color:var(--saffron); font-weight:800;}
+  .pkg-radio.checked{border-color:var(--saffron); background:#FFF7F3;}
+  .order-submit{width:100%; margin-top:6px; font-size:17px; padding:17px;}
+  .form-note{font-size:12.5px; color:var(--ink-soft); text-align:center; margin-top:14px;}
+  #formStatus{margin-top:16px; font-size:14px; font-weight:700; text-align:center; display:none; padding:12px; border-radius:10px;}
+  #formStatus.ok{display:block; background:#E4F3EA; color:#1E6B3D;}
+  #formStatus.err{display:block; background:#FBE7E4; color:var(--saffron-dark);}
+  .field-hint{font-size:12px; color:var(--ink-soft); margin-top:6px;}
+
+  /* ===== SUCCESS MODAL ===== */
+  .modal-overlay{
+    display:none; position:fixed; top:0; left:0; right:0; bottom:0; z-index:200;
+    background:rgba(10,25,23,0.55); backdrop-filter:blur(3px);
+    align-items:center; justify-content:center; padding:20px;
+  }
+  .modal-overlay.show{display:flex;}
+  .modal-box{
+    background:#fff; border-radius:20px; max-width:440px; width:100%;
+    padding:36px 30px 30px; position:relative; text-align:center;
+    box-shadow:0 30px 70px rgba(0,0,0,.35);
+    animation:modalPop .25s ease;
+  }
+  @keyframes modalPop{
+    from{transform:scale(.92); opacity:0;}
+    to{transform:scale(1); opacity:1;}
+  }
+  .modal-close{
+    position:absolute; top:14px; right:16px; background:none; border:none;
+    font-size:26px; line-height:1; color:var(--ink-soft); cursor:pointer;
+    width:32px; height:32px; border-radius:50%; transition:background .15s ease;
+  }
+  .modal-close:hover{background:var(--teal-tint);}
+  .modal-icon{font-size:44px; margin-bottom:10px;}
+  .modal-box h3{font-size:22px; color:var(--teal-dark); margin-bottom:16px;}
+  .modal-msg{text-align:left; font-size:14.5px; color:var(--ink-soft); margin-bottom:22px;}
+  .modal-msg p{margin:0 0 12px;}
+  .modal-msg ul{margin:0 0 12px; padding-left:20px;}
+  .modal-msg li{margin-bottom:6px;}
+  @media (prefers-reduced-motion: reduce){
+    .modal-box{animation:none;}
+  }
+
+  /* ===== FOOTER ===== */
+  footer{padding:48px 0 30px; text-align:center;}
+  footer .disclaimer{font-size:12.5px; color:var(--ink-soft); max-width:640px; margin:0 auto 20px;}
+  footer .logo{justify-content:center; margin-bottom:14px;}
+  footer .copyright{font-size:12.5px; color:var(--ink-soft);}
+
+  /* ===== STICKY MOBILE CTA ===== */
+  .sticky-cta{position:fixed; bottom:0; left:0; right:0; z-index:60; background:#fff; border-top:1px solid var(--line); padding:12px 16px; display:none; box-shadow:0 -6px 20px rgba(0,0,0,.08);}
+  .sticky-cta .btn{width:100%;}
+
+  /* ===== RESPONSIVE ===== */
+  @media (max-width: 900px){
+    .hero-grid{grid-template-columns:1fr; gap:36px;}
+    .hero-img-wrap{order:-1;}
+    .cards3{grid-template-columns:1fr;}
+    .stages{grid-template-columns:1fr 1fr;}
+    .intro-benefits{grid-template-columns:1fr 1fr;}
+    .ingred-grid{grid-template-columns:1fr;}
+    .ingred-list{grid-template-columns:1fr 1fr;}
+    .myclimate-block{grid-template-columns:1fr;}
+    .cert-strip{grid-template-columns:1fr;}
+    .scale-grid{grid-template-columns:1fr;}
+    .cod-strip{grid-template-columns:1fr; text-align:center;}
+    .testi-photo-grid{grid-template-columns:1fr 1fr;}
+    .testi-photo-grid .wide{grid-column:span 2;}
+    .testi-quotes{grid-template-columns:1fr;}
+    .pricing-grid{grid-template-columns:1fr;}
+    .lucky-grid{grid-template-columns:1fr;}
+    .order-box{padding:26px;}
+    .field-row{grid-template-columns:1fr;}
+    .nav-cta{display:none;}
+    .sticky-cta{display:block;}
+    body{padding-bottom:70px;}
+    section{padding:56px 0;}
+  }
+  @media (prefers-reduced-motion: reduce){
+    html{scroll-behavior:auto;}
+    *{transition:none !important;}
+  }
+</style>
+
+<!-- ============================================================
+     META (FACEBOOK) PIXEL — base code
+     Replace YOUR_PIXEL_ID_HERE below with your actual Pixel ID
+     from Meta Events Manager (business.facebook.com/events_manager).
+     This fires PageView automatically on every page load.
+     The Purchase event fires separately on successful order
+     submission — see the script near the order form JS below.
+     ============================================================ -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', 'YOUR_PIXEL_ID_HERE');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=YOUR_PIXEL_ID_HERE&ev=PageView&noscript=1"
+/></noscript>
+<!-- ============================================================ -->
+
+</head>
+<body>
+
+<header class="site">
+  <nav class="nav wrap">
+    <div class="logo"><span class="dot"></span>JWG <span style="color:var(--gold); font-weight:600; font-size:16px;">Joint-Won Gold</span></div>
+    <div class="nav-links">
+      <a href="#symptoms">Simptom</a>
+      <a href="#ingredients">Kandungan</a>
+      <a href="#testimonials">Testimoni</a>
+      <a href="#pricing">Pakej</a>
+      <a href="#faq">Soalan Lazim</a>
+    </div>
+    <a href="#order" class="btn btn-primary nav-cta">Buat Pesanan</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="eyebrow">Teknologi Skin-Delivery™ Korea</div>
+      <h1>Penawar sakit sendi, dari <em>akar</em> Spanish Saffron.</h1>
+      <p class="hero-sub">JWG Joint-Won Gold diformulasi khas untuk sakit pinggang, sciatica, arthritis dan keradangan sendi — dengan bahan semula jadi yang diluluskan GMP &amp; KKM. Bayar bila barang sampai (COD).</p>
+      <div class="hero-cta-row">
+        <a href="#order" class="btn btn-primary">Pesan Sekarang — Dari RM69</a>
+        <a href="#symptoms" class="btn btn-ghost">Semak Simptom Anda</a>
+      </div>
+
+      <div class="timeline">
+        <div class="step"><div class="m">1 Bulan</div><div class="t">Hilangkan kesakitan</div></div>
+        <div class="step"><div class="m">2 Bulan</div><div class="t">Sembuh sepenuhnya</div></div>
+        <div class="step"><div class="m">3 Bulan</div><div class="t">Kesakitan tak berulang</div></div>
+      </div>
+
+      <div class="trust-row">
+        <div class="item"><span class="ico"></span>GMP Certified</div>
+        <div class="item"><span class="ico"></span>KKM Diluluskan</div>
+        <div class="item"><span class="ico"></span>Super Health Brand 2021–2023</div>
+        <div class="item"><span class="ico"></span>COD Tersedia</div>
+      </div>
+    </div>
+    <div class="hero-img-wrap">
+      <img src="assets/hero.jpg" alt="JWG Joint-Won Gold dengan Spanish Saffron">
+      <div class="badge-float"><span class="n">30</span> Tablet<br>MSM 2,000mg</div>
+    </div>
+  </div>
+</section>
+
+<!-- MINI TRUST STRIP -->
+<div class="strip">
+  <div class="wrap">
+    <div class="strip-item"><span class="num">1000+</span> Order Diproses Sehari</div>
+    <div class="strip-item"><span class="num">100%</span> Bahan Semula Jadi</div>
+    <div class="strip-item"><span class="num">GMP</span> &amp; KKM Diluluskan</div>
+    <div class="strip-item"><span class="num">COD</span> Bayar Bila Sampai</div>
+  </div>
+</div>
+
+<!-- SYMPTOMS -->
+<section id="symptoms">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow" style="justify-content:center;">Semak Simptom</div>
+      <h2>3 Jenis Sakit Pinggang Yang Sering Diabaikan</h2>
+      <p>Kenal pasti punca sakit anda sebelum ia bertambah teruk.</p>
+    </div>
+    <div class="cards3">
+      <div class="symptom-card">
+        <h3>Sciatica</h3>
+        <ul>
+          <li>Rasa menusuk, panas merebak ke seluruh kaki</li>
+          <li>Kaki rasa kebas, pergerakan terhad</li>
+          <li>Sakit di pinggang, punggung &amp; kaki (lagi teruk bila duduk)</li>
+          <li>Sakit bahagian bawah belakang</li>
+        </ul>
+      </div>
+      <div class="symptom-card">
+        <h3>Sakit Pinggang &amp; Pinggul Biasa</h3>
+        <ul>
+          <li>Sakit merata di bahagian pinggang / tulang belakang</li>
+          <li>Otot rasa sakit apabila ditekan</li>
+          <li>Sakit bertambah teruk semasa bergerak, lega semasa berehat</li>
+        </ul>
+      </div>
+      <div class="symptom-card">
+        <h3>Spondylolisthesis</h3>
+        <ul>
+          <li>Hanya boleh berbaring lurus / kadang-kadang tengkurap</li>
+          <li>Sukar membongkok ke hadapan</li>
+          <li>Duduk / berdiri lama menyebabkan sakit</li>
+          <li>Duduk mesti tegak, kelenturan pinggang sangat terhad</li>
+        </ul>
+      </div>
+    </div>
+    <div class="proof-img">
+      <img src="assets/info1.jpg" alt="3 Jenis Sakit Pinggang JWG" style="width:100%; max-width:640px; margin:0 auto;">
+      <p class="proof-caption">Rujukan simptom mengikut jenis sakit pinggang</p>
+    </div>
+  </div>
+</section>
+
+<!-- STAGE CHECKER -->
+<section class="alt">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow" style="justify-content:center;">Tahap Sakit Pinggang</div>
+      <h2>Anda Berada Di Tahap Mana?</h2>
+      <p>Lancarkan peredaran darah &amp; legakan ketegangan otot — lebih awal bertindak, lebih cepat pulih.</p>
+    </div>
+    <div class="stages">
+      <div class="stage-card">
+        <span class="num">01</span>
+        <h4>Gejala Awal</h4>
+        <ul><li>Otot tegang tapi tiada rasa sakit</li></ul>
+      </div>
+      <div class="stage-card">
+        <span class="num">02</span>
+        <h4>Gejala Ringan</h4>
+        <ul><li>Sakit apabila menekan leher &amp; bawah punggung</li><li>Sakit sementara</li></ul>
+      </div>
+      <div class="stage-card">
+        <span class="num">03</span>
+        <h4>Gejala Sederhana</h4>
+        <ul><li>Rasa sakit tanpa ditekan</li><li>Sakit kadang-kadang</li><li>Kesukaran membongkok</li></ul>
+      </div>
+      <div class="stage-card severe">
+        <span class="num">04</span>
+        <h4>Gejala Teruk</h4>
+        <ul><li>Sakit pinggang teruk, kebas kaki</li><li>Tak boleh berjalan / duduk seperti biasa</li><li>Mungkin disertai kelemahan otot</li></ul>
+      </div>
+    </div>
+    <div class="proof-img">
+      <img src="assets/info2.jpg" alt="Tahap Sakit Pinggang JWG" style="width:100%; max-width:640px; margin:0 auto;">
+    </div>
+  </div>
+</section>
+
+<!-- PRODUCT INTRO -->
+<section>
+  <div class="wrap intro-banner">
+    <div class="eyebrow" style="justify-content:center;">Kenali JWG Joint-Won Gold</div>
+    <h2>Penawar Sakit Sendi, Dibina Untuk Orang Malaysia</h2>
+    <img src="assets/info3.jpg" alt="Penawar Sakit Sendi JWG - Spanish Saffron" style="width:100%; max-width:900px; margin:0 auto;">
+    <div class="intro-benefits">
+      <div class="intro-benefit">
+        <div class="ico2">🇰🇷</div>
+        <h4>Teknologi Korea</h4>
+        <p>Skin-Delivery™ untuk penyerapan optimum</p>
+      </div>
+      <div class="intro-benefit">
+        <div class="ico2">🌸</div>
+        <h4>Spanish Saffron</h4>
+        <p>Bahan mewah, kaya khasiat anti-radang</p>
+      </div>
+      <div class="intro-benefit">
+        <div class="ico2">🦴</div>
+        <h4>4 Masalah Sendi</h4>
+        <p>Osteoarthritis, keradangan sendi, arthritis, sakit tengkuk</p>
+      </div>
+      <div class="intro-benefit">
+        <div class="ico2">🏅</div>
+        <h4>Quality Top 1</h4>
+        <p>Diiktiraf Asia Pacific Excellence Brand</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- INGREDIENTS -->
+<section id="ingredients" class="alt">
+  <div class="wrap ingred-grid">
+    <div>
+      <div class="eyebrow">Herba Utama</div>
+      <h2>Formulasi Bahan Semula Jadi, Lebih Selamat</h2>
+      <p style="color:var(--ink-soft); font-size:16px;">Kesan Anti-Radang + Melegakan Sakit Sendi. Setiap tablet mengandungi MSM 2,000mg dan Vitamin D, digabungkan dengan herba tradisional pilihan.</p>
+      <div class="ingred-list">
+        <div class="ingred-pill"><span class="leaf">✦</span>Spanish Ekstrak Saffron</div>
+        <div class="ingred-pill"><span class="leaf">✦</span>Arisaema Filiforme</div>
+        <div class="ingred-pill"><span class="leaf">✦</span>Radix Aconiti</div>
+        <div class="ingred-pill"><span class="leaf">✦</span>Pollen Typhae</div>
+        <div class="ingred-pill"><span class="leaf">✦</span>Eurycoma Longifolia</div>
+        <div class="ingred-pill"><span class="leaf">✦</span>Peony Root</div>
+      </div>
+    </div>
+    <img src="assets/ingredients.jpg" alt="Herba utama JWG Joint-Won Gold">
+  </div>
+
+  <div class="wrap myclimate-block">
+    <img src="assets/herbs_myclimate.jpg" alt="Ramuan khas untuk cuaca panas lembab Malaysia">
+    <div>
+      <div class="eyebrow">Sesuai Untuk Cuaca Malaysia</div>
+      <h2>Ramuan Khas Untuk Cuaca Panas Lembab</h2>
+      <p style="color:var(--ink-soft); font-size:16px;">Cuaca panas &amp; lembab Malaysia sering memburukkan lagi keradangan sendi. Formulasi JWG direka khas dengan herba yang membantu:</p>
+      <div class="ingred-list" style="grid-template-columns:1fr;">
+        <div class="ingred-pill"><span class="leaf">✦</span>Anti-Radang</div>
+        <div class="ingred-pill"><span class="leaf">✦</span>Buang Angin, Pulih Sendi</div>
+        <div class="ingred-pill"><span class="leaf">✦</span>Melancarkan Peredaran Darah</div>
+        <div class="ingred-pill"><span class="leaf">✦</span>Pulih Kecederaan Sendi</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow" style="justify-content:center;">Diiktiraf &amp; Diluluskan</div>
+      <h2>Kualiti Yang Boleh Dipercayai</h2>
+      <p>Tiada kesan sampingan &amp; kesakitan tak berulang.</p>
+    </div>
+    <div class="cert-strip">
+      <div>
+        <img src="assets/cert1.jpg" alt="Sijil Super Health Brand & TOP Quality">
+        <div class="cert-caption">Super Health Brand 2021–2023</div>
+      </div>
+      <div>
+        <img src="assets/cert2.jpg" alt="Sijil GMP Certified">
+        <div class="cert-caption">GMP Certified</div>
+      </div>
+      <div>
+        <img src="assets/kkm.jpg" alt="Kelulusan KKM QUEST3+">
+        <div class="cert-caption">KKM Approved — NOT280405360K</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SCALE / TRUST -->
+<section class="alt">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow" style="justify-content:center;">Kenapa Ramai Pilih JWG</div>
+      <h2>Dipercayai Ribuan Pelanggan Di Seluruh Malaysia</h2>
+    </div>
+    <div class="scale-grid">
+      <img src="assets/order_volume.jpg" alt="Hampir seribu order setiap hari JWG">
+      <div>
+        <h3 style="font-size:24px;">Hampir Seribu Pesanan Diproses Setiap Hari</h3>
+        <p style="color:var(--ink-soft);">Bilik stor kami sentiasa sibuk membungkus pesanan pelanggan dari seluruh Malaysia — bukti kepercayaan yang berterusan terhadap JWG Joint-Won Gold.</p>
+        <div class="scale-stats">
+          <div class="scale-stat"><div class="n">GMP</div><div class="l">Kilang Bertauliah</div></div>
+          <div class="scale-stat"><div class="n">KKM</div><div class="l">Notifikasi Sah</div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cod-strip">
+      <img src="assets/ninjavan.jpg" alt="Ninja Van COD partnership - Barang sampai baru bayar">
+      <div>
+        <h3 style="font-size:22px;">Takut Kena Scam? Jangan Risau, Boleh COD.</h3>
+        <p style="color:var(--ink-soft); margin-bottom:0;">Kami bekerjasama dengan Ninja Van untuk penghantaran yang selamat dan dipercayai. Barang sampai ke depan pintu anda, baru anda bayar. Tiada risiko, tiada bayaran pendahuluan.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow" style="justify-content:center;">Testimoni Pelanggan</div>
+      <h2>Pengalaman Sebenar Pengguna JWG</h2>
+      <p>Hasil individu berbeza mengikut tahap sakit dan penggunaan yang konsisten.</p>
+    </div>
+
+    <div class="testi-photo-grid">
+      <img class="wide" src="assets/fb_collage9.jpg" alt="Kolaj testimoni pelanggan JWG">
+      <img src="assets/fb_pakman.jpg" alt="Testimoni Pak Man - sakit pinggang, lutut dan urat">
+      <img src="assets/fb_triple_thumbsup.jpg" alt="Testimoni pelanggan lain berpuas hati">
+      <img src="assets/fb_rosn_whatsapp.jpg" alt="Testimoni WhatsApp pelanggan untuk emak">
+      <img src="assets/fb_farida_fb.jpg" alt="Testimoni Facebook Farida - sciatica">
+      <img src="assets/fb_marjalisa_fb.jpg" alt="Testimoni Facebook Marja Lisa - sakit pinggang">
+      <img class="wide" src="assets/fb_halina_comment.jpg" alt="Testimoni Facebook Halina Marzuki - beli kali ketiga">
+      <img class="wide" src="assets/whiteboard.jpg" alt="Testimoni whiteboard - selamat tinggal slip disc">
+    </div>
+
+    <div class="testi-quotes">
+      <div class="quote-card"><b>Pak Man — Foreman Motor</b>"JointWon ni dapat melegakan sakit pinggang, sakit lutut dan sakit urat saya sepanjang kerja sebagai foreman motor. Badan rasa selesa dan lebih kuat untuk kerja."</div>
+      <div class="quote-card"><b>Halina Marzuki — Facebook</b>"Sebelum ni ragu-ragu nak cuba. Sekarang dah beli kali ketiga. Barang begitu memuaskan. Sangat baik untuk lutut dan kaki. Rekomen bagi mereka yang mengalami sakit gout."</div>
+      <div class="quote-card"><b>Farida — Facebook Review</b>"Very effective in treating sciatica."</div>
+      <div class="quote-card"><b>Marja Lisa — Facebook Review</b>"Sakit pinggang, lengguh-lengguh sendi nampak berkurangan. Saya ada syorkan untuk diorang cuba Jointwon Gold Malaysia."</div>
+      <div class="quote-card"><b>Rosn— (via WhatsApp)</b>"Berkesan untuk mak saya, saya akan beli lagi!"</div>
+      <div class="quote-card"><b>Pengguna Slip Disc</b>"Selamat tinggal slip disc — sakit lower pinggang, sakit betis dan kebas kaki dah tak jadi masalah lagi."</div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW TO USE -->
+<section class="alt">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow" style="justify-content:center;">Cara Guna</div>
+      <h2>Mudah, 3 Langkah Sehari</h2>
+    </div>
+    <div class="cards3 howto-grid">
+      <div class="symptom-card howto-card">
+        <div class="howto-icon">
+          <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="20" cy="20" r="18" stroke="#0E5E59" stroke-width="2.2"/>
+            <path d="M13 20a7 7 0 0 1 14 0" stroke="#B23A2E" stroke-width="2.2" stroke-linecap="round"/>
+            <circle cx="15" cy="20" r="2.4" fill="#C99A3E"/>
+            <circle cx="25" cy="20" r="2.4" fill="#C99A3E"/>
+          </svg>
+        </div>
+        <h3>1. Ambil 2 Tablet</h3>
+        <p style="color:var(--ink-soft); font-size:14.5px;">Ambil 2 tablet JWG Joint-Won Gold setiap hari mengikut cadangan pada label.</p>
+      </div>
+      <div class="symptom-card howto-card">
+        <div class="howto-icon">
+          <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 8h16l-2 24a2 2 0 0 1-2 1.8H16A2 2 0 0 1 14 32L12 8Z" stroke="#0E5E59" stroke-width="2.2" stroke-linejoin="round"/>
+            <path d="M12.8 18h14.4" stroke="#B23A2E" stroke-width="2.2"/>
+          </svg>
+        </div>
+        <h3>2. Dengan Air Suam</h3>
+        <p style="color:var(--ink-soft); font-size:14.5px;">Telan bersama segelas air suam, selepas makan untuk penyerapan optimum.</p>
+      </div>
+      <div class="symptom-card howto-card">
+        <div class="howto-icon">
+          <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="20" cy="20" r="18" stroke="#0E5E59" stroke-width="2.2"/>
+            <path d="M20 11v9l6 4" stroke="#B23A2E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <h3>3. Konsisten Setiap Hari</h3>
+        <p style="color:var(--ink-soft); font-size:14.5px;">Guna secara konsisten — kesan optimum dirasai selepas 1–3 bulan penggunaan berterusan.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section id="pricing">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow" style="justify-content:center;">Pilihan Pakej</div>
+      <h2>Pilih Pakej Yang Sesuai Untuk Anda</h2>
+      <p>Semakin banyak, semakin jimat — sesuai untuk rawatan jangka panjang.</p>
+    </div>
+    <div class="pricing-grid">
+      <div class="price-card" data-pkg="Beli 1" data-price="RM69">
+        <img src="assets/buy1.jpg" alt="Beli 1 - RM69">
+        <div class="pc-body">
+          <h3>Beli 1</h3>
+          <div class="qty-badge">30 Tablet · Satu Bulan</div>
+          <div class="price-row">
+            <span class="was">RM138</span>
+            <div class="price"><sup>RM</sup>69</div>
+          </div>
+          <div class="save">1 botol — jimat RM69</div>
+          <button type="button" class="select-btn">Pilih Pakej</button>
+        </div>
+      </div>
+      <div class="price-card" data-pkg="Beli 2 Percuma 1" data-price="RM99">
+        <div class="pop">Paling Popular</div>
+        <img src="assets/buy2.jpg" alt="Beli 2 Percuma 1 - RM99">
+        <div class="pc-body">
+          <h3>Beli 2 Percuma 1</h3>
+          <div class="qty-badge">90 Tablet · 3 Bulan</div>
+          <div class="price-row">
+            <span class="was">RM414</span>
+            <div class="price"><sup>RM</sup>99</div>
+          </div>
+          <div class="save">3 botol — jimat RM315</div>
+          <button type="button" class="select-btn">Pilih Pakej</button>
+        </div>
+      </div>
+      <div class="price-card" data-pkg="Beli 3 Percuma 2" data-price="RM119">
+        <img src="assets/buy3.jpg" alt="Beli 3 Percuma 2 - RM119">
+        <div class="pc-body">
+          <h3>Beli 3 Percuma 2</h3>
+          <div class="qty-badge">150 Tablet · 5 Bulan</div>
+          <div class="price-row">
+            <span class="was">RM690</span>
+            <div class="price"><sup>RM</sup>119</div>
+          </div>
+          <div class="save">5 botol — jimat RM571</div>
+          <button type="button" class="select-btn">Pilih Pakej</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="alt">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow" style="justify-content:center;">Soalan Lazim</div>
+      <h2>Ada Persoalan? Kami Jawab Di Sini</h2>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item">
+        <button class="faq-q" type="button">Apakah itu JWG Joint-Won Gold?<span class="faq-icon">+</span></button>
+        <div class="faq-a"><p>JWG Joint-Won Gold ialah makanan kesihatan berfungsi yang diformulasikan dengan MSM 2,000mg, Vitamin D dan herba tradisional seperti Spanish Saffron untuk membantu menjaga kesihatan sendi dan tulang rawan.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" type="button">Berapa lama untuk mula rasa kesan?<span class="faq-icon">+</span></button>
+        <div class="faq-a"><p>Setiap individu berbeza mengikut tahap sakit. Berdasarkan maklum balas pelanggan, kebanyakan mula rasa perubahan dalam masa 2–4 minggu dengan penggunaan konsisten, dan hasil optimum biasanya dalam 1–3 bulan.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" type="button">Adakah produk ini selamat digunakan?<span class="faq-icon">+</span></button>
+        <div class="faq-a"><p>Ya. JWG Joint-Won Gold adalah GMP Certified dan berdaftar dengan KKM (No. Notifikasi: NOT280405360K). Walau bagaimanapun, jika anda sedang hamil, menyusu, mempunyai keadaan perubatan sedia ada atau sedang mengambil ubat lain, sila rujuk doktor sebelum penggunaan.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" type="button">Bagaimana cara penggunaan yang betul?<span class="faq-icon">+</span></button>
+        <div class="faq-a"><p>Ambil 2 tablet sehari bersama air suam, selepas makan, secara konsisten setiap hari untuk hasil terbaik.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" type="button">Berapa lama tempoh penghantaran?<span class="faq-icon">+</span></button>
+        <div class="faq-a"><p>Tempoh penghantaran anggaran 2–3 hari bekerja untuk Semenanjung Malaysia, dan 4–5 hari bekerja untuk Sabah &amp; Sarawak, melalui Ninja Van.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" type="button">Apakah kaedah pembayaran yang diterima?<span class="faq-icon">+</span></button>
+        <div class="faq-a"><p>Kami menerima bayaran tunai semasa penghantaran (Cash on Delivery / COD). Anda hanya bayar apabila pesanan sampai ke tangan anda — tiada risiko, tiada bayaran pendahuluan.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" type="button">Adakah testimoni pelanggan ini sahih?<span class="faq-icon">+</span></button>
+        <div class="faq-a"><p>Testimoni yang dipaparkan adalah maklum balas sebenar daripada pelanggan kami, termasuk tangkapan skrin WhatsApp dan komen Facebook. Hasil individu adalah berbeza dan tidak menjamin keputusan yang sama untuk setiap pengguna.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" type="button">Bolehkah saya order untuk ibu bapa / orang lain?<span class="faq-icon">+</span></button>
+        <div class="faq-a"><p>Boleh! Ramai pelanggan kami order untuk ibu bapa atau ahli keluarga. Hanya masukkan nama dan alamat penghantaran penerima semasa membuat pesanan.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ORDER FORM -->
+<section id="order" class="order-section">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow" style="justify-content:center;">Buat Pesanan</div>
+      <h2 style="color:#fff;">Isi Maklumat Untuk Pesan Sekarang</h2>
+      <p>COD tersedia — bayar hanya bila pesanan sampai. Kami akan hubungi anda untuk mengesahkan pesanan.</p>
+    </div>
+
+    <form class="order-box" id="orderForm">
+      <div class="field">
+        <label for="pkgSelect">Pilih Pakej</label>
+        <div class="pkg-radio-group" id="pkgRadioGroup">
+          <label class="pkg-radio" data-value="Beli 1 (RM69)">
+            <span><input type="radio" name="package" value="Beli 1 (RM69)" required> Beli 1 — 30 Tablet</span>
+            <span class="p">RM69</span>
+          </label>
+          <label class="pkg-radio" data-value="Beli 2 Percuma 1 (RM99)">
+            <span><input type="radio" name="package" value="Beli 2 Percuma 1 (RM99)"> Beli 2 Percuma 1 — 90 Tablet</span>
+            <span class="p">RM99</span>
+          </label>
+          <label class="pkg-radio" data-value="Beli 3 Percuma 2 (RM119)">
+            <span><input type="radio" name="package" value="Beli 3 Percuma 2 (RM119)"> Beli 3 Percuma 2 — 150 Tablet</span>
+            <span class="p">RM119</span>
+          </label>
+        </div>
+      </div>
+
+      <div class="field">
+        <label for="fullName">Nama Penuh</label>
+        <input type="text" id="fullName" name="fullName" placeholder="Contoh: Ahmad bin Ali" required>
+      </div>
+
+      <div class="field">
+        <label for="phone">Nombor Telefon</label>
+        <div class="phone-group">
+          <span class="phone-prefix">+60</span>
+          <input type="tel" id="phone" name="phone" placeholder="12-3456789" pattern="[0-9\-]{8,12}" required>
+        </div>
+        <div class="field-hint">Contoh: 12-3456789 (tanpa 0 di depan)</div>
+      </div>
+
+      <div class="field">
+        <label for="address">Alamat Penghantaran</label>
+        <textarea id="address" name="address" placeholder="Contoh: No 12, Jalan Bunga 3, Taman Melati" required></textarea>
+      </div>
+
+      <div class="field">
+        <label for="postcode">Poskod</label>
+        <input type="text" id="postcode" name="postcode" placeholder="Contoh: 43200" pattern="[0-9]{5}" maxlength="5" inputmode="numeric" required>
+      </div>
+
+      <button type="submit" class="btn btn-primary order-submit" id="submitBtn">Hantar Pesanan</button>
+      <div class="form-note">Bayaran secara Cash on Delivery (COD) — anda bayar apabila pesanan sampai. Dengan menghantar borang ini, anda bersetuju untuk dihubungi berkenaan pesanan anda.</div>
+      <div id="formStatus"></div>
+    </form>
+  </div>
+</section>
+
+<!-- SUCCESS MODAL — shown after a successful order submission -->
+<div class="modal-overlay" id="successModal" role="dialog" aria-modal="true" aria-labelledby="successModalTitle">
+  <div class="modal-box">
+    <button type="button" class="modal-close" id="modalCloseBtn" aria-label="Tutup">&times;</button>
+    <div class="modal-icon">✅</div>
+    <h3 id="successModalTitle">Pesanan Berjaya!</h3>
+    <div class="modal-msg">
+      <p>✨ Terima kasih atas pesanan sis 🙏</p>
+      <p>Alhamdulillah, pesanan telah berjaya dibuat. Barang akan dihantar segera:</p>
+      <ul>
+        <li>Semenanjung Malaysia: 2–3 hari bekerja 🚚</li>
+        <li>Sabah &amp; Sarawak: 3–5 hari bekerja ✈️</li>
+      </ul>
+      <p>Mohon sediakan QR / tunai ketika driver tiba ya. Semoga Allah permudahkan urusan dan beri kesihatan yang baik 🌸.</p>
+    </div>
+    <button type="button" class="btn btn-primary btn-block" id="modalOkBtn">Baik, Faham!</button>
+  </div>
+</div>
+
+<!-- LUCKY DRAW -->
+<section class="lucky">
+  <div class="wrap lucky-grid">
+    <img src="assets/luckydraw.jpg" alt="Cabutan Bertuah JWG">
+    <div>
+      <div class="eyebrow">Bonus Pembelian</div>
+      <h2>Cabutan Bertuah — Menang Hadiah Menarik</h2>
+      <p style="color:var(--ink-soft);">Setiap pesanan layak disertakan dalam cabutan bertuah kami. Terma &amp; syarat terpakai.</p>
+      <ul>
+        <li><div><span class="prize-label">Grand Prize</span>Dyson V10 Cordless Vacuum</div><div>RM1999</div></li>
+        <li><div><span class="prize-label">2nd Prize</span>Habib 1g 999.9 Gold Bar</div><div>RM505</div></li>
+        <li><div><span class="prize-label">3rd Prize</span>Elba Low Sugar Rice Cooker</div><div>RM299</div></li>
+      </ul>
+      <a href="#order" class="btn btn-primary" style="margin-top:10px;">Pesan &amp; Sertai Cabutan</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="logo"><span class="dot"></span>JWG Joint-Won Gold</div>
+    <p class="disclaimer">Produk ini adalah makanan kesihatan berfungsi (Health Functional Food) dan bukan ubat. Hasil individu adalah berbeza mengikut penggunaan. Sila dapatkan nasihat pengamal perubatan sekiranya simptom berterusan atau bertambah teruk. Notifikasi KKM: NOT280405360K.</p>
+    <div class="copyright">© 2026 JWG Wellness International PLT. Hak cipta terpelihara.</div>
+  </div>
+</footer>
+
+<div class="sticky-cta">
+  <a href="#order" class="btn btn-primary">Pesan Sekarang — Dari RM69</a>
+</div>
+
+<script>
+  // ---- Package selection sync between pricing cards and form radios ----
+  const priceCards = document.querySelectorAll('.price-card');
+  const pkgRadios = document.querySelectorAll('input[name="package"]');
+  const pkgRadioLabels = document.querySelectorAll('.pkg-radio');
+
+  const pkgMap = {
+    'Beli 1': 'Beli 1 (RM69)',
+    'Beli 2 Percuma 1': 'Beli 2 Percuma 1 (RM99)',
+    'Beli 3 Percuma 2': 'Beli 3 Percuma 2 (RM119)'
+  };
+
+  function selectPackageByLabel(label){
+    priceCards.forEach(c => c.classList.toggle('selected', c.dataset.pkg === label));
+    const value = pkgMap[label];
+    pkgRadios.forEach(r => { r.checked = (r.value === value); });
+    pkgRadioLabels.forEach(l => l.classList.toggle('checked', l.dataset.value === value));
+  }
+
+  priceCards.forEach(card => {
+    card.addEventListener('click', () => {
+      selectPackageByLabel(card.dataset.pkg);
+      document.getElementById('order').scrollIntoView({behavior:'smooth', block:'start'});
+    });
+  });
+
+  pkgRadioLabels.forEach(label => {
+    label.addEventListener('click', () => {
+      const val = label.dataset.value;
+      pkgRadioLabels.forEach(l => l.classList.toggle('checked', l === label));
+      priceCards.forEach(c => c.classList.toggle('selected', pkgMap[c.dataset.pkg] === val));
+    });
+  });
+
+  // ---- FAQ accordion ----
+  document.querySelectorAll('.faq-item').forEach(item => {
+    const btn = item.querySelector('.faq-q');
+    const ans = item.querySelector('.faq-a');
+    btn.addEventListener('click', () => {
+      const isOpen = item.classList.contains('open');
+      document.querySelectorAll('.faq-item.open').forEach(openItem => {
+        if(openItem !== item){
+          openItem.classList.remove('open');
+          openItem.querySelector('.faq-a').style.maxHeight = null;
+        }
+      });
+      if(isOpen){
+        item.classList.remove('open');
+        ans.style.maxHeight = null;
+      } else {
+        item.classList.add('open');
+        ans.style.maxHeight = ans.scrollHeight + 'px';
+      }
+    });
+  });
+
+  // ---- Form submission -> Google Sheets via Apps Script Web App ----
+  // 1. Deploy the accompanying Apps Script as a Web App (see instructions provided).
+  // 2. Paste the deployment URL below, replacing YOUR_GOOGLE_SCRIPT_URL_HERE.
+  const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzlE8cob7GVbCBHC8Z0veCsayxnp8kZ9_rrrFN7wkQRtWqixela-hmhPRgn6TrJ0fgSVg/exec";
+
+  const form = document.getElementById('orderForm');
+  const statusEl = document.getElementById('formStatus');
+  const submitBtn = document.getElementById('submitBtn');
+
+  // Package price lookup, used for the Facebook Pixel Purchase event value
+  const packagePrices = {
+    'Beli 1 (RM69)': 69,
+    'Beli 2 Percuma 1 (RM99)': 99,
+    'Beli 3 Percuma 2 (RM119)': 119
+  };
+
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    statusEl.className = '';
+    statusEl.style.display = 'none';
+
+    const pkgChecked = form.querySelector('input[name="package"]:checked');
+    if(!pkgChecked){
+      statusEl.textContent = 'Sila pilih pakej terlebih dahulu.';
+      statusEl.classList.add('err');
+      return;
+    }
+
+    const phoneDigits = document.getElementById('phone').value.trim();
+    const fullPhone = '+60' + phoneDigits.replace(/[^0-9\-]/g, '');
+
+    const data = {
+      package: pkgChecked.value,
+      fullName: document.getElementById('fullName').value.trim(),
+      phone: fullPhone,
+      address: document.getElementById('address').value.trim(),
+      postcode: document.getElementById('postcode').value.trim(),
+      timestamp: new Date().toISOString()
+    };
+
+    if(GOOGLE_SCRIPT_URL === "YOUR_GOOGLE_SCRIPT_URL_HERE"){
+      statusEl.textContent = 'Borang belum disambungkan ke Google Sheet. Sila configure GOOGLE_SCRIPT_URL.';
+      statusEl.classList.add('err');
+      return;
+    }
+
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'Menghantar...';
+
+    fetch(GOOGLE_SCRIPT_URL, {
+      method: 'POST',
+      mode: 'no-cors',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(data)
+    })
+    .then(() => {
+      // Show the success popup modal instead of (or in addition to) inline text
+      openSuccessModal();
+
+      // ---- Facebook Pixel: Purchase conversion event ----
+      // Fires when the order form is successfully submitted. Since this is a
+      // COD order (payment happens on delivery, not at checkout), this marks
+      // "order placed" as the conversion moment for ad optimization purposes.
+      if (typeof fbq === 'function') {
+        fbq('track', 'Purchase', {
+          value: packagePrices[data.package] || 0,
+          currency: 'MYR',
+          content_name: data.package
+        });
+      }
+
+      form.reset();
+      priceCards.forEach(c => c.classList.remove('selected'));
+      pkgRadioLabels.forEach(l => l.classList.remove('checked'));
+    })
+    .catch(() => {
+      statusEl.textContent = 'Maaf, terdapat masalah menghantar pesanan. Sila cuba lagi atau hubungi kami terus.';
+      statusEl.classList.add('err');
+    })
+    .finally(() => {
+      submitBtn.disabled = false;
+      submitBtn.textContent = 'Hantar Pesanan';
+    });
+  });
+
+  // ---- Success modal open/close ----
+  const successModal = document.getElementById('successModal');
+  const modalCloseBtn = document.getElementById('modalCloseBtn');
+  const modalOkBtn = document.getElementById('modalOkBtn');
+
+  function openSuccessModal(){
+    successModal.classList.add('show');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeSuccessModal(){
+    successModal.classList.remove('show');
+    document.body.style.overflow = '';
+  }
+  modalCloseBtn.addEventListener('click', closeSuccessModal);
+  modalOkBtn.addEventListener('click', closeSuccessModal);
+  successModal.addEventListener('click', (e) => {
+    if(e.target === successModal) closeSuccessModal();
+  });
+  document.addEventListener('keydown', (e) => {
+    if(e.key === 'Escape' && successModal.classList.contains('show')) closeSuccessModal();
+  });
+
+  // ---- Simple scroll fade-in ----
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if(entry.isIntersecting){
+        entry.target.style.opacity = 1;
+        entry.target.style.transform = 'translateY(0)';
+      }
+    });
+  }, {threshold: 0.12});
+
+  document.querySelectorAll('section > .wrap').forEach(el => {
+    el.style.opacity = 0;
+    el.style.transform = 'translateY(18px)';
+    el.style.transition = 'opacity .6s ease, transform .6s ease';
+    observer.observe(el);
+  });
+</script>
+
+</body>
+</html>
